@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-//        Map<String,String> mapA = new LinkedHashMap<>();
-        Map<String,String> mapA = new HashMap<>();
+        Map<String,String> mapA = new LinkedHashMap<>();
+//        Map<String,String> mapA = new HashMap<>();
         mapA.put("two","deaux");
         mapA.put("five","cinq");
         mapA.put("one","un");
