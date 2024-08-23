@@ -20,11 +20,11 @@ public class Main {
         System.out.println("var3.a()");
         var3.a();
         System.out.println("var3.b()");
-//        var3.b(); // compiler error
+//        var3.b(); // compiler error because there is no method b() defined for Kurt (the declared type)
         System.out.println("var4.a()");
         var4.a();
         System.out.println("var5.a()");
-//        var5.a(); // compiler error
+//        var5.a(); // compiler error because there is no method a() defined for Object (the declared type)
 
         System.out.println("((Chris) var5).a()");
 //        ((Chris) var5).a(); // runtime error - throws an exception because Jerry cannot be cast to Chris
